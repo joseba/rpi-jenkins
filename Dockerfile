@@ -1,4 +1,4 @@
-FROM resin/armv7hf-debian:jessie
+FROM resin/armv7hf-debian:stretch
 
 ENV JENKINS_HOME /var/jenkins_home
 ENV JENKINS_SLAVE_AGENT_PORT 50000
